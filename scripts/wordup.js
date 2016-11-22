@@ -341,7 +341,9 @@ function containsOnlyAllowedLetters(word) {
     // TODO 12
     // Return the actual answer.
     if(disallowedLettersInWord(word) == "") {
-    return true;
+        return true;
+    }
+
     else {
         return false;
     }
